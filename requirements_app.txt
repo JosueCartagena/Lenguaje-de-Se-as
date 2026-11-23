@@ -1,0 +1,4 @@
+# Solo para extraer_app.py (MediaPipe igual al de la app Android). Va en un entorno aparte.
+mediapipe==1.2.3
+opencv-python==4.10.0.84
+numpy

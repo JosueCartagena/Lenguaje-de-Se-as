@@ -1,0 +1,58 @@
+{
+  "exactitud": 1.0,
+  "f1_macro": 1.0,
+  "n": 42,
+  "top3": 1.0,
+  "por_persona": {
+    "companera": 1.0,
+    "josue": 1.0,
+    "sintetico": 1.0
+  },
+  "por_palabra": {
+    "almuerzo": 1.0,
+    "buenas_noches": 1.0,
+    "buenas_tardes": 1.0,
+    "buenos_dias": 1.0,
+    "cena": 1.0,
+    "desayuno": 1.0,
+    "hermana": 1.0,
+    "hermano": 1.0,
+    "hola": 1.0,
+    "mama": 1.0,
+    "mi": 1.0,
+    "nombre": 1.0,
+    "papa_familia": 1.0,
+    "_ninguna": 1.0
+  },
+  "modo": "2 PERSONAS, pero cada palabra la grabó una sola: deja una repetición fuera (k=3). No mide personas nuevas.",
+  "una_persona": true,
+  "exactitud_pliegues": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "exactitud_media": 1.0,
+  "exactitud_desv": 0.0,
+  "mejores_epocas": [
+    112,
+    82,
+    57
+  ],
+  "clases": [
+    "almuerzo",
+    "buenas_noches",
+    "buenas_tardes",
+    "buenos_dias",
+    "cena",
+    "desayuno",
+    "hermana",
+    "hermano",
+    "hola",
+    "mama",
+    "mi",
+    "nombre",
+    "papa_familia",
+    "_ninguna"
+  ],
+  "segundos": 346.3
+}

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LSB Aimara</string>
+    <string name="titulo">LSB → aimara</string>
+    <string name="sin_internet">Funciona sin internet</string>
+    <string name="girar">Girar cámara</string>
+    <string name="instruccion">Ponte de la cabeza al ombligo. Empieza con las manos abajo, haz la seña y vuelve a bajarlas.</string>
+    <string name="esperando">Esperando una seña…</string>
+    <string name="no_seguro">No estoy seguro</string>
+    <string name="permiso">La app necesita la cámara para ver las señas.</string>
+    <string name="cargando">Cargando modelos…</string>
+</resources>

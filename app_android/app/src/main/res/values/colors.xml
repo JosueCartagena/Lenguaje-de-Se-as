@@ -1,0 +1,8 @@
+<resources>
+    <color name="fondo">#0B0E16</color>
+    <color name="texto">#F4EFE6</color>
+    <color name="tenue">#A9B1C3</color>
+    <color name="acento">#F26A2E</color>
+    <color name="azul">#3FA0F0</color>
+    <color name="panel">#D90B0E16</color>
+</resources>

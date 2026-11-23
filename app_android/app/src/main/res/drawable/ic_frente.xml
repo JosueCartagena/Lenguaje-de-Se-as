@@ -1,0 +1,8 @@
+<!-- Ícono: esqueleto simple con una mano naranja -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <path android:strokeColor="#3FA0F0" android:strokeWidth="3.5" android:strokeLineCap="round"
+        android:pathData="M54,36 L54,62 M54,44 L40,52 L36,64 M54,44 L66,40 L72,30 M54,62 L46,78 M54,62 L62,78" />
+    <path android:fillColor="#3FA0F0" android:pathData="M54,25 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+    <path android:fillColor="#F26A2E" android:pathData="M72,28 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+</vector>

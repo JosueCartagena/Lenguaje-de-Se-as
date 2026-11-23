@@ -1,0 +1,18 @@
+{
+  "modelo": "gru",
+  "optimizador": "adamw",
+  "activacion": "relu",
+  "lr": null,
+  "epocas": 150,
+  "paciencia": 20,
+  "lote": 32,
+  "veces": 8,
+  "p_espejo": 0.5,
+  "T": 30,
+  "k": 5,
+  "palabras": null,
+  "persona_prueba": null,
+  "semilla": 42,
+  "final": true,
+  "nombre": "gru_adamw_relu"
+}

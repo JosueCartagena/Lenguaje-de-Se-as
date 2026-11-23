@@ -1,0 +1,12 @@
+# Python 3.11 (también sirve 3.10 o 3.12). NO usar 3.13: mediapipe 0.10.14 no existe para 3.13.
+# Versiones probadas juntas.
+mediapipe==0.10.14
+numpy==1.26.4
+opencv-python==4.10.0.84
+scikit-learn==1.9.1
+matplotlib==3.11.2
+tensorflow==2.16.2
+keras==3.15.1
+protobuf==4.25.9
+# Después de instalar, ejecutar:  pip uninstall -y jax jaxlib
+# (mediapipe instala jax, que choca con tensorflow 2.16 y no se usa en este proyecto)

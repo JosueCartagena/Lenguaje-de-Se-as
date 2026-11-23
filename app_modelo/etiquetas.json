@@ -1,0 +1,110 @@
+{
+  "clases": [
+    "almuerzo",
+    "buenas_noches",
+    "buenas_tardes",
+    "buenos_dias",
+    "cena",
+    "desayuno",
+    "hermana",
+    "hermano",
+    "hola",
+    "mama",
+    "mi",
+    "nombre",
+    "papa_familia",
+    "_ninguna"
+  ],
+  "T": 30,
+  "n_features": 257,
+  "n_puntos": 221,
+  "extra": "puntos.caracteristicas: 36 valores mano-cara",
+  "normalizacion": "centro = mediana del punto medio de hombros; escala = mediana del ancho de hombros (x,y); x multiplicado por ancho/alto del video antes de normalizar",
+  "palabras": [
+    {
+      "id": "almuerzo",
+      "lsb": "Almuerzo",
+      "aimara": "",
+      "aimara_validado": "no"
+    },
+    {
+      "id": "buenas_noches",
+      "lsb": "Buenas Noches",
+      "aimara": "aski arumakipana",
+      "aimara_validado": "no"
+    },
+    {
+      "id": "buenas_tardes",
+      "lsb": "Buenas tardes",
+      "aimara": "aski jayp'ukipana",
+      "aimara_validado": "no"
+    },
+    {
+      "id": "buenos_dias",
+      "lsb": "Buenos días",
+      "aimara": "aski urukipana",
+      "aimara_validado": "no"
+    },
+    {
+      "id": "cena",
+      "lsb": "Cena",
+      "aimara": "",
+      "aimara_validado": "no"
+    },
+    {
+      "id": "desayuno",
+      "lsb": "Desayuno",
+      "aimara": "",
+      "aimara_validado": "no"
+    },
+    {
+      "id": "hermana",
+      "lsb": "Hermana",
+      "aimara": "kullaka",
+      "aimara_validado": "no"
+    },
+    {
+      "id": "hermano",
+      "lsb": "Hermano",
+      "aimara": "jilata",
+      "aimara_validado": "no"
+    },
+    {
+      "id": "hola",
+      "lsb": "Hola",
+      "aimara": "",
+      "aimara_validado": "no"
+    },
+    {
+      "id": "mama",
+      "lsb": "Mamá",
+      "aimara": "tayka / mama",
+      "aimara_validado": "no"
+    },
+    {
+      "id": "mi",
+      "lsb": "Mi",
+      "aimara": "",
+      "aimara_validado": "no"
+    },
+    {
+      "id": "nombre",
+      "lsb": "Nombre",
+      "aimara": "",
+      "aimara_validado": "no"
+    },
+    {
+      "id": "papa_familia",
+      "lsb": "Papá",
+      "aimara": "awki / tata",
+      "aimara_validado": "no"
+    },
+    {
+      "id": "_ninguna",
+      "lsb": "Ninguna seña",
+      "aimara": "",
+      "aimara_validado": "no"
+    }
+  ],
+  "experimento": "gru_adamw_relu"
+}

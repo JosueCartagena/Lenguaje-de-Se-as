@@ -1,0 +1,38 @@
+# Compila la app LSB → Aimara en los servidores de GitHub y deja el APK para descargar.
+# Se ejecuta sola cada vez que subes cambios, o a mano desde la pestaña "Actions".
+name: Compilar APK
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Buscar la carpeta del proyecto Android
+        run: |
+          DIR=$(dirname "$(find . -name gradlew -not -path './.git/*' | head -1)")
+          echo "Proyecto en: $DIR"
+          echo "APP_DIR=$DIR" >> "$GITHUB_ENV"
+
+      - name: Compilar
+        run: |
+          cd "$APP_DIR"
+          chmod +x gradlew
+          ./gradlew assembleDebug --stacktrace
+
+      - name: Guardar el APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: LSB-Aimara-apk
+          path: ${{ env.APP_DIR }}/app/build/outputs/apk/debug/*.apk

@@ -1,0 +1,23 @@
+{
+  "clases": [
+    "almuerzo",
+    "buenas_noches",
+    "buenas_tardes",
+    "buenos_dias",
+    "cena",
+    "desayuno",
+    "hermana",
+    "hermano",
+    "hola",
+    "mama",
+    "mi",
+    "nombre",
+    "papa_familia",
+    "_ninguna"
+  ],
+  "T": 30,
+  "n_features": 257,
+  "n_puntos": 221,
+  "extra": "puntos.caracteristicas: 36 valores mano-cara",
+  "normalizacion": "centro = mediana del punto medio de hombros; escala = mediana del ancho de hombros (x,y); x multiplicado por ancho/alto del video antes de normalizar"
+}
